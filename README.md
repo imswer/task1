@@ -16,25 +16,25 @@ This is a **Spring Boot REST API** that allows users to create, update, and exec
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/imswer/task1.git
+ git clone <your-repo-url>
 ```
 
 2. Navigate to the project folder:
 
 ```sh
-cd TaskApi
+ cd TaskApi
 ```
 
 3. Build the project:
 
 ```sh
-mvn clean install
+ mvn clean install
 ```
 
 4. Run the application:
 
 ```sh
-mvn spring-boot:run
+ mvn spring-boot:run
 ```
 
 ---
@@ -46,56 +46,56 @@ mvn spring-boot:run
 ```sh
 curl -X POST http://localhost:8080/tasks -H "Content-Type: application/json" -d '{"id":"21122","name":"saiteja","owner":"Korrayi Saiteja","command":"echo Amrita vishwa vidyapeetham"}'
 ```
-
-
+![Create Task](images/post.png)
 
 ### 2️⃣ **Get All Tasks**
 
 ```sh
 curl -X GET http://localhost:8080/tasks
 ```
-
-
+![Get All Tasks](images/listalltasks.png)
 
 ### 3️⃣ **Get a Task by ID**
 
 ```sh
 curl -X GET http://localhost:8080/tasks/21122
 ```
-
-
+![Get Task](images/get.png)
 
 ### 4️⃣ **Update a Task**
 
 ```sh
 curl -X PUT http://localhost:8080/tasks/21122 -H "Content-Type: application/json" -d '{"id":"21122","name":"saiteja","owner":"Korrayi Saiteja","command":"echo I am studying in Amrita Vishwa Vidyapeetham"}'
 ```
-
-
+![Update Task](images/update.png)
 
 ### 5️⃣ **Execute a Task**
 
 ```sh
 curl -X PUT http://localhost:8080/tasks/21122/execute
 ```
-
-
+![Execute Task](images/execute.png)
 
 ### 6️⃣ **Delete a Task**
 
 ```sh
 curl -X DELETE http://localhost:8080/tasks/21122
 ```
-
-
+![Delete Task](images/delete.png)
 
 ---
 
 
-
 ## 📸 Screenshots
 
-All screenshots are included above in the relevant sections.
+All screenshots are stored in the images directory.
+
+- [Create Task](images/post.png)
+- [Get All Tasks](images/listalltasks.png)
+- [Get Task by ID](images/get.png)
+- [Update Task](images/update.png)
+- [Execute Task](images/execute.png)
+- [Delete Task](images/delete.png)
 
 ---
 
@@ -104,9 +104,4 @@ All screenshots are included above in the relevant sections.
 - **Spring Boot**
 - **MongoDB**
 - **Maven**
--
-
----
-
-
 
