@@ -16,7 +16,7 @@ This is a **Spring Boot REST API** that allows users to create, update, and exec
 1. Clone the repository:
 
 ```sh
- git clone <your-repo-url>
+ git clone https://github.com/imswer/task1.git
 ```
 
 2. Navigate to the project folder:
