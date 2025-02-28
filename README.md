@@ -46,42 +46,42 @@ This is a **Spring Boot REST API** that allows users to create, update, and exec
 ```sh
 curl -X POST http://localhost:8080/tasks -H "Content-Type: application/json" -d '{"id":"21122","name":"saiteja","owner":"Korrayi Saiteja","command":"echo Amrita vishwa vidyapeetham"}'
 ```
-![Create Task](images/post.png)
+![Create Task](TaskApi/images/post.png)
 
 ### 2️⃣ **Get All Tasks**
 
 ```sh
 curl -X GET http://localhost:8080/tasks
 ```
-![Get All Tasks](images/listalltasks.png)
+![Get All Tasks](TaskApi/images/listalltasks.png)
 
 ### 3️⃣ **Get a Task by ID**
 
 ```sh
 curl -X GET http://localhost:8080/tasks/21122
 ```
-![Get Task](images/get.png)
+![Get Task](TaskApi/images/get.png)
 
 ### 4️⃣ **Update a Task**
 
 ```sh
 curl -X PUT http://localhost:8080/tasks/21122 -H "Content-Type: application/json" -d '{"id":"21122","name":"saiteja","owner":"Korrayi Saiteja","command":"echo I am studying in Amrita Vishwa Vidyapeetham"}'
 ```
-![Update Task](images/update.png)
+![Update Task](TaskApi/images/update.png)
 
 ### 5️⃣ **Execute a Task**
 
 ```sh
 curl -X PUT http://localhost:8080/tasks/21122/execute
 ```
-![Execute Task](images/execute.png)
+![Execute Task](TaskApi/images/execute.png)
 
 ### 6️⃣ **Delete a Task**
 
 ```sh
 curl -X DELETE http://localhost:8080/tasks/21122
 ```
-![Delete Task](images/delete.png)
+![Delete Task](TaskApi/images/delete.png)
 
 ---
 
@@ -90,12 +90,12 @@ curl -X DELETE http://localhost:8080/tasks/21122
 
 All screenshots are stored in the images directory.
 
-- [Create Task](images/post.png)
-- [Get All Tasks](images/listalltasks.png)
-- [Get Task by ID](images/get.png)
-- [Update Task](images/update.png)
-- [Execute Task](images/execute.png)
-- [Delete Task](images/delete.png)
+- [Create Task](TaskApi/images/post.png)
+- [Get All Tasks](TaskApi/images/listalltasks.png)
+- [Get Task by ID](TaskApi/images/get.png)
+- [Update Task](TaskApi/images/update.png)
+- [Execute Task](TaskApi/images/execute.png)
+- [Delete Task](TaskApi/images/delete.png)
 
 ---
 
