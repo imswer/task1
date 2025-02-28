@@ -7,7 +7,7 @@ This is a **Spring Boot REST API** that allows users to create, update, and exec
 - Create a task ✅
 - Update a task 🔄
 - Execute a task ⚡
-- MongoDB as the database 🗄️
+- Delete a task ❌
 
 ---
 
